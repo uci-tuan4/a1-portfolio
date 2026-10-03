@@ -1,0 +1,61 @@
+/* Simple layout for the portfolio */
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #243041;
+  background-color: #f7f9fc;
+}
+
+a {
+  color: #174a8b;
+}
+
+a:focus-visible {
+  outline: 2px solid #174a8b;
+  outline-offset: 3px;
+}
+
+header, section, footer {
+  margin-bottom: 32px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+article {
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  border: 1px solid #d5deea;
+  border-radius: 6px;
+}
+
+article h3 {
+  margin-top: 0;
+}
+
+footer {
+  border-top: 1px solid #d5deea;
+  padding-top: 16px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+
+  nav {
+    gap: 8px 16px;
+  }
+}
