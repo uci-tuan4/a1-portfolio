@@ -36,6 +36,25 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
+AChecker (WCAG 2.0 AA) reported 0 known problems, 0 likely problems, and
+29 potential problems requiring manual review. No known errors were ignored.
+The HTML checker reported no errors or warnings; the CSS validator found no errors.
+
+Manual review of the potential problems:
+- All text is English and left-to-right, so extra language or direction markers
+  are unnecessary. There are no long quotations or instructions based on shape
+  or position, and no visual lists needing list markup.
+- The title describes the portfolio. Headings identify the page, its sections,
+  and its projects rather than being used only for visual formatting.
+- Link wording identifies each destination in context. Related section links
+  are grouped in a labeled navigation element.
+- A visible "Skip to content" link targets the focusable main element.
+  A separate site map is unnecessary for this single-page portfolio.
+- There are no repeated components across multiple pages to compare.
+
+Validation used direct HTML/CSS input; CSS was included inline for AChecker
+so it could inspect the stylesheet. Visual desktop/mobile and keyboard checks
+are still pending because the available browser could not open the local preview.
 
 
 4. How long, in hours, did it take you to complete this assignment?
@@ -51,4 +70,3 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 7. Is there anything special we need to know in order to run your code?
-
